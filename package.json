@@ -1,0 +1,26 @@
+{
+  "name": "slack-zoom-plaintext",
+  "version": "1.0.0",
+  "description": "Links a plaintext zoom for users of alternative slack clients like Ripcord",
+  "main": "app.js",
+  "dependencies": {
+    "@slack/events-api": "^2.3.3",
+    "@slack/web-api": "^5.10.0",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/lukec11/zoom-link"
+  },
+  "keywords": [
+    "zoom",
+    "slack",
+    "ripcord"
+  ],
+  "author": "lukec11 <me@lukec.me>",
+  "license": "GPL-3.0-or-later"
+}
